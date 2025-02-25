@@ -1,3 +1,19 @@
+/*
+ * Alphabet class
+ * Contains methods:
+ * - isValid(List<?> tokens) : static method to check if given tokens are valid for Alphabet
+ * - isValidWord(String str) : check if given string is valid word over this Alphabet
+ * - lengthOf(String str) : return length of valid word over this Alphabet, 0 otherwise
+ * - containsToken(Object token) : check if given token is present in this Alphabet
+ * - add(T token) : add token to this Alphabet
+ * - remove(T token) : remove token from this Alphabet
+ * - isEmpty() : check if this Alphabet is empty
+ * - setTokens(List<T> tokens) : set tokens for this Alphabet
+ * - getTokens() : get tokens of this Alphabet
+ * - toString() : return string representation of this Alphabet
+ */
+
+package implementations.alphabet_and_str;
 import java.util.ArrayList;
 
 import java.util.List;
