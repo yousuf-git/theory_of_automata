@@ -1,0 +1,70 @@
+================== What is Alphabet? ==================
+
+Alphabet is a set of letters or symbols that are used to represent a language. The English alphabet consists of 26 letters, while other languages may have different alphabets with different numbers of letters. Alphabets are used to write words and sentences, and they are the building blocks of written communication.
+
+Computer languages also have alphabets, which are the set of characters that can be used to write programs. These alphabets typically include letters, numbers, and special symbols that are used to represent commands, variables, and other elements of the programming language.
+
+Symbol for Alphabet: Σ
+
+Examples of Alphabet:
+
+- The English alphabet consists of the following 26 letters:
+Σ = {A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z}
+
+- The binary alphabet consists of the following 2 symbols:
+Σ = {0, 1}
+
+- The ASCII alphabet consists of the following 128 characters:
+Σ = {0-9, A-Z, a-z, special symbols}
+
+================== Valid and Invalid Alphabet ==================
+
+In alphabet, each character cannot occur as prefix of another character. For example, if we have alphabet {a, ab, abc}, then it is invalid alphabet because 'a' is prefix of 'ab' and 'abc'. So, alphabet should be such that no character is prefix of another character.
+
+Examples of Valid Alphabet
+Σ = {a, b, c}
+Σ = {0, 1}
+Σ = {a, ba, c}        // Here, 'a' is not prefix of 'ba' and 'c'
+Σ = {a, ba, bba}      // Here, 'ba' is not prefix of 'bba'
+
+================== What is String? ==================
+
+A string is a sequence of characters, which can be letters, numbers, or symbols. Strings are used to represent text in computer programs, and they are a fundamental data type in most programming languages.
+
+============== String vs Word ==============
+
+A string is a sequence of characters, while a word is a sequence of letters. In other words, a word is a special case of a string where the characters are limited to letters only.
+Here letters means symbols belonging to some defined alphabet.
+
+``` Every word is a string but every string is not a word. ```
+
+For example, with reference to Alphabet Σ = {a, b}
+
+- "ab" is a word as it is a sequence of letters from alphabet Σ.
+- "abc" is a string but not a word as it contains a character 'c' which is not part of our alphabet Σ
+
+================== String Operations ==================
+
+============== Length of String ==============
+
+The length of a string is the number of characters in the string. Note that the character means a symbol from the alphabet (it can be letter, number or special symbol or combination of them)
+
+Example:
+Supoose we have an Alphabet Σ = {a, ba} and a String "aba". Here, length of string is not 3, but 2 because 'a' and 'ba' are two characters from alphabet Σ
+
+- lets say we have another string "abababaaaba" (first of all its a word belonging to alphabet Σ = {a, ba})
+Now lets tokenize it to count the length: 'a', 'ba', 'ba', 'ba', 'a', 'a', 'ba'
+Simply count the tokens and you'll get the length which is 7 here
+
+============== Reverse of String ==============
+Its pretty simple as its name
+
+============== Palindrome Strings ==============
+A string is called palindrome if it reads same from both ends. For example, "madam" is a palindrome string
+
+================== Language ==================
+
+... to be continued
+
+
+
